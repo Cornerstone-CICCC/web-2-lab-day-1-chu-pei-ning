@@ -1,0 +1,48 @@
+main {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.search {
+  padding: 20px;
+}
+
+#search-city {
+  width: 550px;
+}
+
+.city {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+  height: 200px;
+  padding: 20px;
+}
+
+.city.day {
+ background-image: url(./images/day.jpg);
+ background-position: bottom;
+ color: #000;
+}
+
+.city.night {
+  background-image: url(./images/night.jpg);
+  color: #fff;
+}
+
+.table {
+  padding: 20px 220px 20px 220px;
+}
+
+table, th, td {
+  text-align: left;
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 620px;
+  padding: 10px;
+}
+
